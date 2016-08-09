@@ -8,7 +8,7 @@
     "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
     "back-end": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "resetDB": "bash server/db/init.sh"
+    "resetDB": "bash tasks/reset_db.sh"
   },
   "repository": {
     "type": "git",
