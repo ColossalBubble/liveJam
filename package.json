@@ -7,7 +7,8 @@
     "prestart": "npm install",
     "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
     "back-end": "nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resetDB": "bash server/db/init.sh"
   },
   "repository": {
     "type": "git",

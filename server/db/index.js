@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 
 var db = {
   name: 'liveJam_development',
-  username: 'root',
+  username: 'liveJam',
   password: ''
 };
 
