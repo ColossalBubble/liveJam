@@ -7,7 +7,9 @@
     "prestart": "npm install",
     "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
     "back-end": "nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "sequelize",
+    "init_db": "bash server/db/init.sh"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "mysql": "^2.11.1",
-    "sequelize": "^3.23.6"
+    "sequelize": "^3.23.6",
+    "sequelize-cli": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.10.0"
